@@ -2,6 +2,7 @@ numpy
 faiss-cpu
 sentence-transformers
 torch
-transformers
 fastapi
-uvicorn
+uvicorn[standard]
+tqdm
+datasets

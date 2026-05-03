@@ -1,0 +1,14 @@
+numpy
+pandas
+scikit-learn
+matplotlib
+faiss-cpu
+sentence-transformers
+torch
+transformers
+rank-bm25
+fastapi
+uvicorn
+pyyaml
+python-dotenv
+tqdm

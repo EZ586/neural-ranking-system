@@ -1,7 +1,7 @@
 from fastapi import FastAPI
-from src.retrieval.faiss_retriever import FaissRetriever
-from src.ranking.cross_encoder import CrossEncoderRanker
-from src.pipeline.search_pipeline import SearchPipeline
+from src.neural_ranking_system.retrieval.faiss_retriever import FaissRetriever
+from src.neural_ranking_system.ranking.cross_encoder import CrossEncoderRanker
+from src.neural_ranking_system.pipeline.search_pipeline import SearchPipeline
 
 app = FastAPI()
 

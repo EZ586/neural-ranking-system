@@ -1,6 +1,6 @@
-from src.retrieval.faiss_retriever import FaissRetriever
-from src.ranking.cross_encoder import CrossEncoderRanker
-from src.pipeline.search_pipeline import SearchPipeline
+from neural_ranking_system.retrieval.faiss_retriever import FaissRetriever
+from neural_ranking_system.ranking.cross_encoder import CrossEncoderRanker
+from neural_ranking_system.pipeline.search_pipeline import SearchPipeline
 
 documents = [
     {"id": 1, "text": "Neural ranking improves search relevance."},
